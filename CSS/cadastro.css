@@ -1,0 +1,136 @@
+body {
+    background-color: #E7E5E1;   
+    margin: 0;
+    margin-left: 28%;   
+    margin-top: 2%;
+    justify-content: center;
+    
+}
+
+form {
+    margin-left: 10%;
+}
+
+body ::selection {
+    background-color: gray;
+}
+
+
+@font-face {
+    font-family: "poppins";
+    src: url(../FONTES/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url(../FONTES/Lato/Lato-Regular.ttf);
+}
+
+#voltar {
+    width: 15%;
+    height: 2em;
+    border-radius: 30px;
+    background-color: #0C1F4F;
+}
+
+#voltar img {
+    width: 2em;
+}
+
+#voltar h2 {
+    color: white; 
+    position: relative;
+    bottom: 2.8em;
+    left: 33%;
+    font-size: 1rem;
+}
+
+#voltar a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'poppins';
+    color: #F84E03;
+    text-transform: uppercase;
+    margin-left: 16%;
+    
+}
+
+p {
+    font-family: 'lato';
+    color: #0C1F4F;
+    font-size: 1em;
+    margin-left: 21%;
+}
+
+h3 {
+    font-family: 'poppins';
+    color: #F84E03;
+}
+
+
+fieldset {
+    border: 0;
+}
+
+input,button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #0C1F4F;
+    font-family: 'lato';
+    display: block;
+}
+
+fieldset .grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"], .campo input[type="number"]{
+    padding: 0.2em;
+    border: 1px solid #0C1F4F; 
+    box-shadow: 2px 2px 2px #0C1F4F;
+    display: block;
+}
+
+button {
+    font-size: 1em;
+    background-color: #0C1F4F;
+    color: white;
+    border: 0;
+    width: 6em;
+    height: 2em;
+    margin-left: 2%;
+    margin-bottom: 1em;
+    box-shadow: 2px 2px 2px #0C1F4F;
+    
+}
+
+button:hover {
+    background-color: #F84E03;
+    cursor: pointer;  
+}
+
+#campo2 {
+    position: relative;
+    bottom: 1em;
+    left: 3em;
+    display: inline-block;
+}
+
+#campo3 {
+    position: relative;
+    bottom: 2.8em;
+    left: 14em;
+    display: inline-block;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+    <link rel="shortcut icon" href="../IMAGENS/cidade.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/avaliação.css">
+</head>
+<body>
+    <a href="index.html"><div id="voltar" >
+        <img src="../IMAGENS/de-volta.png" alt="">
+        <h2>Voltar</h2>
+    </div> </a>
+    <div>
+        <h2>Avalie sua experiência no nosso site!</h2>
+        <p>Conte o que achou e quais problemas você teve:</p>
+        <br>
+    </div>
+    <form action="">
+        <div id="campo">
+            <label for="Conte sua experiência no site">Conte sua experiência no nosso site:</label>
+            <textarea name="experiência" id="experiência" rows="6"></textarea>
+            <br>
+            <label for="Você tem alguma sugestão ou reclamação?">Você tem alguma sugestão ou reclamação?</label>
+            <textarea name="reclamação" id="reclamação" rows="6"></textarea>
+            <br>
+            <label for="Deixe uma nota de 0 a 5">Deixe uma nota de 0 a 5</label>
+            <input type="number" name="nota" id="nota" required max="5" min="0">
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
